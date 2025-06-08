@@ -122,3 +122,26 @@
 }
 
 /* KRAJ USLUGE SEKCIJE */
+
+/* POCETAK SEKCIJE CITAT */
+
+#citat-sekcija{
+    background-color: #12b0fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    height: 75px;
+}
+
+.citat{
+    font-weight: bold;
+    font-style: italic;
+}
+.autor{
+    position: absolute; 
+    left: 850px;
+    bottom: 1px;
+    font-style: italic;
+    font-weight: bold;
+}
