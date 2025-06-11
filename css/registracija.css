@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: #3C4858;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+h2,h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: 	#2C3E50;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: 	#2C3E50;
+}
+button{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+#registracija-sekcija{
+    background: linear-gradient(to bottom,#add8e6 ,white );
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#registracija-sekcija h2{
+    margin-bottom: 20px;
+}
+.registracija-forma{
+    background-color: rgb(255, 255, 255,0.5);
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+input,select{
+    width: 100%;
+    border-radius: 15px;
+    border: none;  
+    padding: 10px; 
+}
+
+input,select:focus{
+    outline: none;
+    border: none;
+} 
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #add8e6;
+    background-color: #add8e6;
+    margin-top: 5px;
+}
+
+button:hover{
+    background-color: #4A90E2;
+    color: white;
+    cursor: pointer;
+    transform: scale3d(1.05, 1.05, 1);
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.input i{
+    color: #2C3E50;
+    margin-right: 7px;
+    font-size: 20px;
+}
