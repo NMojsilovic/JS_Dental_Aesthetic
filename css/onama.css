@@ -30,16 +30,16 @@ button{
 
 #hero-sekcija{
     height: 100vh;
-    background: url('https://sdmntpritalynorth.oaiusercontent.com/files/00000000-f41c-6246-9d71-710a58076d94/raw?se=2025-06-11T13%3A56%3A58Z&sp=r&sv=2024-08-04&sr=b&scid=a03b7fb2-76b1-54e4-96e6-6dc46e9ba5b9&skoid=0a4a0f0c-99ac-4752-9d87-cfac036fa93f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-11T05%3A36%3A57Z&ske=2025-06-12T05%3A36%3A57Z&sks=b&skv=2024-08-04&sig=xUJV7sSHcG8KZxrVTP6rQBOrsGx%2B3kjFpKDfWaHeS6M%3D') no-repeat center center/cover;
+    background: url('https://t4.ftcdn.net/jpg/01/33/33/41/360_F_133334155_X23HzbJKawbIgXVaub4bPM8CjpkS5uMS.jpg') no-repeat center center/cover;
      display: flex;
     flex-direction: column;
     justify-content: center;
   
 }
 .hero-content{
-    width: 550px;
+    width: 700px;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
   
 }
 .dugmad{
@@ -62,7 +62,13 @@ button{
     font-size: 17px;
     margin-top: 10px;
     margin-bottom: 15px;
+    line-height: 1.5;
 }
+.hero-content h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
 
 #misijaivizija-sekcija{
     padding: 30px;

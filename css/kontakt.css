@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: #3C4858;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+h2,h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: 	#2C3E50;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: 	#2C3E50;
+}
+button{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+#socials-sekcija{
+    background: linear-gradient(to bottom, #add8e6, #f0f8ff);
+    padding: 30px;
+}
+#socials-sekcija h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.socials-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.social{
+    text-align: center; 
+}
+.social img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.social img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#mapa-sekcija{
+    background-color: #f0f8ff;
+    padding: 30px;
+}
+#mapa-sekcija h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mapa-grid{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f2ff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.mapa iframe{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+.opis{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    width: 100%;
+}
+
+#faq{
+     background: linear-gradient(to top, #add8e6, #f0f8ff);
+    padding: 30px;
+}
+#faq h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pitanja{
+    background-color:#f2faff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.pitanje{
+    background-color: #e0f2ff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+.pitanje p{
+    display: none;
+}
+.pitanje:hover{
+   transform: scale3d(1.02, 1.02, 1);
+    transition: transform 0.3s ease;
+}
+.pitanje.aktivno p{
+    display: block;
+}
+.pitanje.aktivno{
+    display: block;
+    border-left: 5px solid #3397fb;
+}
+.pitanje h3{
+    cursor: pointer;
+    color: #2C3E50;
+    margin-bottom: 5px;
+}
