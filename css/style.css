@@ -121,7 +121,7 @@ button{
     margin-top: 10px;
     padding: 8px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #4A90E2;
     background-color:  #4A90E2;
     color: white;
 }
@@ -393,4 +393,32 @@ button{
     height: 3px;
     background-color: #4A90E2;
     margin: 1px auto;
+}
+
+nav{
+    background-color: #add8e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigacija-lista{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.navigacija-lista a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+.navigacija-lista li{
+    font-size: 20px;
+}
+.logo img{
+    height: 100px;
+    width: 160px;
+    margin-left: 20px;
+}
+.navigacija-lista a:hover{
+    color: #4A90E2;
 }

@@ -33,9 +33,10 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 #prijava-sekcija h2{
+    text-align: center;
     margin-bottom: 10px;
 }
 .prijava-forma{
@@ -44,7 +45,7 @@ button{
     text-align: center;
     padding: 30px;
     border-radius: 20px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 input,select{
     width: 100%;
@@ -91,4 +92,31 @@ button:hover{
 }
 .prijava-forma p{
     margin-top: 10px;
+}
+nav{
+    background-color: #add8e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigacija-lista{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.navigacija-lista a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+.navigacija-lista li{
+    font-size: 20px;
+}
+.logo img{
+    height: 100px;
+    width: 160px;
+    margin-left: 20px;
+}
+.navigacija-lista a:hover{
+    color: #4A90E2;
 }
