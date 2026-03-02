@@ -344,3 +344,137 @@ nav{
 .navigacija-lista a:hover{
     color: #4A90E2;
 }
+ @media(max-width: 992px){
+       header{
+        max-width: 100%;
+    }
+    #stomatologija-sekcija{
+        width: 80%;
+    }
+     #prp-sekcija{
+        width: 80%;
+    }
+     #lipoliza-sekcija{
+        width: 80%;
+    }
+     #botox-sekcija{
+        width: 80%;
+    }
+     #fileri-sekcija{
+        width: 80%;
+    }
+     #mezoterapija-sekcija{
+        width: 80%;
+    }
+}  
+ @media(max-width: 768px){
+    header{
+        max-width: 100%;
+    }
+    .navigacija-lista{
+        display: none;
+    }
+    #stomatologija-sekcija{
+        width: 80%;
+         justify-self: center;
+         margin: 0 auto;
+    }
+     #prp-sekcija{
+        width: 80%;
+        justify-self: center;
+        margin: 20px auto;
+    }
+     #lipoliza-sekcija{
+        width: 80%;
+         justify-self: center;
+         margin: 20px auto;
+    }
+     #botox-sekcija{
+        width: 80%;
+         justify-self: center;
+         margin: 20px auto;
+    }
+     #fileri-sekcija{
+        width: 80%;
+        justify-self: center;
+        margin: 20px auto;
+    }
+     #mezoterapija-sekcija{
+        width: 80%;
+        justify-self: center;
+        margin: 20px auto;
+    }
+} 
+
+ @media(max-width: 576px){
+       header{
+        max-width: 100%;
+    }
+       .navigacija-lista{
+        display: none;
+    }
+
+    #stomatologija-sekcija{
+        width: 80vw;
+        height: 55vh;
+        margin: 20px auto;
+        justify-self: center;
+    }
+    .stomatologija-grid{
+        height: 35vh;
+    }
+    .slika{
+        width: 100%;
+        height: 100%;
+    }
+    .slika img{
+        width: 100%;
+       height: 100%;
+    }
+
+    #prp-sekcija{
+        width: 80vw;
+        height: 55vh;
+       margin: 20px auto;
+       justify-self: center;
+    }
+    .prp-grid{
+        height: 28vh;
+    }
+      #lipoliza-sekcija{
+        width: 80vw;
+        height: 55vh;
+       margin: 20px auto;
+        justify-self: center;
+    }
+    .lipoliza-grid{
+        height: 28vh;
+    }
+    #botox-sekcija{
+        width: 80vw;
+        height: 55vh;
+       margin: 20px auto;
+        justify-self: center;
+    }
+    .botox-grid{
+        height: 28vh;
+    }
+    #fileri-sekcija{
+        width: 80vw;
+        height: 55vh;
+       margin: 20px auto;
+        justify-self: center;
+    }
+    .fileri-grid{
+        height: 28vh;
+    }
+     #mezoterapija-sekcija{
+        width: 80vw;
+        height: 55vh;
+        margin: 20px auto;
+        justify-self: center;
+    }
+    .mezoterapija-grid{
+        height: 28vh;
+    }
+} 

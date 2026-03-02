@@ -40,7 +40,7 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 70%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -70,7 +70,7 @@ button{
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     gap: 20px;
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
     padding: 20px;
     background-color: #e0f2ff;
@@ -159,4 +159,44 @@ nav{
 }
 .navigacija-lista a:hover{
     color: #4A90E2;
+}
+@media(max-width: 1200px){
+    .mapa-grid{
+        width: 80%;
+    }
+}
+@media(max-width: 992px){
+    .mapa-grid{
+        width: 80%;
+    } 
+}
+@media(max-width: 768px){
+    .social img{
+        width: 70px;
+        height: 70px;
+    }
+    .mapa-grid{
+        grid-template-columns: 1fr;
+        width: 60%;
+    }
+    .opis{
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px){
+    .socials-grid{
+        justify-content: center;
+    }
+    .mapa-grid{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .opis{
+        text-align: center;
+    }
+    .pitanja{
+        width: 90%;
+    }
+
 }
