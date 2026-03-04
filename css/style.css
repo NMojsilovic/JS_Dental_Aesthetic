@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 p{
     color: #3C4858;
@@ -448,137 +452,38 @@ nav.scrolled {
     color: #3B82F6;
 }
 
- @media(max-width: 1200px){
-    .hero-content{
-        width: 80vw;
-    }
-    .usluge{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   }
-    .usluga{
-    justify-self: center;
-   }
-   .autor{
-    left: 70%;
-   }
-   #citat-sekcija{
-    height: 13vh;
-   }
-   .jelena{
-    height: 40vh;
-   }
-   .jelena-slika img{
-    height: 40vh;
-   }
-    .dragana{
-    height: 40vh;
-   }
-   .drDragana-slika img{
-    height: 40vh;
-   }
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white; /* OBAVEZNO */
 }
-@media(max-width: 992px){
-    .hero-content{
-        width: 80vw;
-    }
-    .usluge{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   }
-    .usluga{
-    justify-self: center;
-   }
-   .autor{
-    left: 70%;
-   }
-   #citat-sekcija{
-    height: 13vh;
-   }
-   .jelena{
-    height: 35vh;
-   }
-   .jelena-slika img{
-    height: 35vh;
-   }
-    .dragana{
-    height: 35vh;
-   }
-   .drDragana-slika img{
-    height: 35vh;
-   }
+nav.scrolled {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
+ #menu-toggle {
+  display: none;
+} 
+
+    .hamburger {
+  display: none;
+}
+
+
 @media(max-width: 768px){
-    .hero-content{
-        width: 50vw;
+    .navigacija-lista{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
     }
-   .usluge{
-    width: 80%;
-   }
-   .autor{
-    left: 70%;
-   }
-   #citat-sekcija{
-    height: 85px;
-   }
-   .Onama-grid{
-    grid-template-columns: 1fr;
-   }
-   .jelena{
-    height: 45vh;
-   }
-   .jelena-slika img{
-    height: 45vh;
-   }
-    .dragana{
-    height: 45vh;
-   }
-   .drDragana-slika img{
-    height: 45vh;
-   }
-   .nasi-radovi-grid{
-    grid-template-columns: 1fr;
-   }
-   .utisci-grid{
-    grid-template-columns: 1fr;
-   }
-}
-@media(max-width: 576px){
-    .hero-content{
-        width: 80vw;
+    #menu-toggle:checked ~ .navigacija-lista{
+        display: flex;
     }
-   .usluge{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr;
-   }
-   .autor{
-   left: 65%;
-   }
-   #citat-sekcija{
-    height: 120px;
-   }
-   .Onama-grid{
-    grid-template-columns: 1fr;
-   }
-   .jelena{
-    height: 40vh;
-   }
-   .jelena-slika img{
-    height: 40vh;
-   }
-    .dragana{
-    height: 40vh;
-   }
-   .drDragana-slika img{
-    height: 40vh;
-   }
-   .nasi-radovi-grid{
-    grid-template-columns: 1fr;
-   }
-   .utisci-grid{
-    grid-template-columns: 1fr;
-   }
+    .hamburger{
+        display: flex;
+    }
 }
+
