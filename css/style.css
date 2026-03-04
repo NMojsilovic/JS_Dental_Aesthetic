@@ -128,10 +128,14 @@ button{
     gap: 10px;
     padding: 10px;
 }
-.stavkaGrid:hover{
-    transform: scale3d(1.1, 1.1, 1);
-    transition: 0.3s ease;
-    cursor:default;
+.stavkaGrid{
+    opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s ease;
+}
+.stavkaGrid.show{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* POČETAK USLUGE SEKCIJE */
@@ -465,9 +469,13 @@ nav.scrolled {
   display: none;
 } 
 
-    .hamburger {
+.hamburger {
   display: none;
 }
+.stavkaGrid{
+    text-align: center;
+}
+
 @media(max-width:1024px){
       .jelena{
         height:100%;
