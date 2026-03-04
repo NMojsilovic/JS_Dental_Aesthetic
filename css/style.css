@@ -468,7 +468,49 @@ nav.scrolled {
     .hamburger {
   display: none;
 }
+@media(max-width:1024px){
+      .jelena{
+        height:100%;
+    }
+    .jelena-slika img{
+        height: 100%;
+    }
+     .dragana{
+        height:100%;
+    }
+    .drDragana-slika img{
+        height: 100%;
+    }
+}
 
+@media(max-width:900px){
+      .jelena{
+        height:100%;
+    }
+    .jelena-slika img{
+        height: 100%;
+    }
+     .dragana{
+        height:100%;
+    }
+    .drDragana-slika img{
+        height: 100%;
+    }
+     .navigacija-lista{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+    #menu-toggle:checked ~ .navigacija-lista{
+        display: flex;
+    }
+    .hamburger{
+        display: flex;
+    }
+}
 
 @media(max-width: 768px){
     .navigacija-lista{
@@ -526,11 +568,23 @@ nav.scrolled {
             grid-template-columns: 1fr;
     }
     .Onama-grid{
-                grid-template-columns: 1fr;
+            grid-template-columns: 1fr;
         }
-        .trustBar-grid{
-                    grid-template-columns: 1fr 1fr;
-            }
+    .jelena{
+        height:100%;
+    }
+    .jelena-slika img{
+        height: 100%;
+    }
+     .dragana{
+        height:100%;
+    }
+    .drDragana-slika img{
+        height: 100%;
+    }
+    .trustBar-grid{
+            grid-template-columns: 1fr 1fr;
+        }
     .hero-content{
         width: 90%;
     }
