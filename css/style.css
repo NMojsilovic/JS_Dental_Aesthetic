@@ -485,5 +485,58 @@ nav.scrolled {
     .hamburger{
         display: flex;
     }
+     .nasi-radovi-grid{
+            grid-template-columns: 1fr;
+            width:70%;
+    }
+    .Onama-grid{
+                grid-template-columns: 1fr;
+        }
+         .utisci-grid{
+        grid-template-columns: 1fr;
+    }
+    .usluge{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+      #hero-sekcija{
+        height: 70%;
+    }
+}
+@media(max-width: 600px){
+    #hero-sekcija{
+        height: 70%;
+    }
+    .hero-content{
+        width: 90%;
+    }
+     .nasi-radovi-grid{
+            grid-template-columns: 1fr;
+    }
+     .usluge{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 500px){
+    .utisci-grid{
+        grid-template-columns: 1fr;
+    }
+    .nasi-radovi-grid{
+            grid-template-columns: 1fr;
+    }
+    .Onama-grid{
+                grid-template-columns: 1fr;
+        }
+        .trustBar-grid{
+                    grid-template-columns: 1fr 1fr;
+            }
+    .hero-content{
+        width: 90%;
+    }
+     .usluge{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
