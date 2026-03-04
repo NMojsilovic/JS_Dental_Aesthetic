@@ -13,3 +13,12 @@ const observer = new IntersectionObserver((entries) => {
 items.forEach(item => {
   observer.observe(item);
 });
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    nav.classList.add("scrolled");
+  } else {
+    nav.classList.remove("scrolled");
+  }
+});
