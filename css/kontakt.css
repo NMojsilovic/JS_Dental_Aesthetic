@@ -251,8 +251,18 @@ nav.scrolled {
     .mapa-grid{
         width: 80%;
     }
+     .forma input,textarea{
+        width: 70%;
+        margin: 3% auto;
+    }   
+    .forma button{
+        width: 30%;
+    }
 }
 @media(max-width: 900px){
+     .socials-grid{
+        width: 80%;
+    }
     .mapa-grid{
         width: 80%;
     } 
@@ -270,11 +280,24 @@ nav.scrolled {
     .hamburger{
         display: flex;
     }
+        .forma input,textarea{
+        width: 70%;
+        margin: 3% auto;
+    }   
+    .forma button{
+        width: 30%;
+    }
 }
 @media(max-width: 768px){
-    .social img{
-        width: 70px;
-        height: 70px;
+    .socials-grid{
+        width: 80%;
+    }
+        .forma input,textarea{
+        width: 70%;
+        margin: 3% auto;
+    }   
+    .forma button{
+        width: 30%;
     }
     .mapa-grid{
         grid-template-columns: 1fr;
@@ -284,10 +307,42 @@ nav.scrolled {
         text-align: center;
     }
 }
-
-@media(max-width: 576px){
+@media(max-width: 600px){
     .socials-grid{
         justify-content: center;
+        grid-template-columns: 1fr;
+    }
+    .forma input,textarea{
+        width: 70%;
+        margin: 5% auto;
+    }   
+    .forma button{
+        width: 40%;
+    }
+    .mapa-grid{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .opis{
+        text-align: center;
+    }
+    .pitanja{
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 500px){
+    .socials-grid{
+        justify-content: center;
+        grid-template-columns: 1fr;
+    }
+    .forma input,textarea{
+        width: 70%;
+        margin: 5% auto;
+    }   
+    .forma button{
+        width: 40%;
     }
     .mapa-grid{
         grid-template-columns: 1fr;
